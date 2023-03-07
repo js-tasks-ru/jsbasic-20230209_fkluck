@@ -14,7 +14,7 @@ function highlight(table) {
       row.classList.add('available') :
       row.classList.add('unavailable')
     } else {
-    row.setAttribute('hidden', true);
+    row.hidden = true;
     }
   
     let age = arrTable.indexOf('Age');
