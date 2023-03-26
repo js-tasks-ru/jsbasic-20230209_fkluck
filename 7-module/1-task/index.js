@@ -37,7 +37,7 @@ export default class RibbonMenu {
       if (event.target === leftArrow) {
         menu.scrollBy(-350, 0);
         let scrollLeft = menu.scrollLeft;
-
+        
         if (scrollLeft === 0) {
           leftArrow.classList.remove('ribbon__arrow_visible');
         } else if (!rightArrow.classList.contains('ribbon__arrow_visible')) {        
